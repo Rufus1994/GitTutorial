@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var Label: UILabel!
     
     let message = "Hello Git !"
     
@@ -25,6 +27,7 @@ class ViewController: UIViewController {
         func reverse(text: String) -> String {
             return String(text.reversed())
             print(reverse(text: "stressed"))
+    
         }
     }
 }
